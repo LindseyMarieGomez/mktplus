@@ -1,0 +1,306 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* FONT STYLES BEGIN */
+
+* {color:#000;}
+
+h1, h2, h5, .smallcaps, .tagcaps, .choosebutton {
+  font-family: "work sans", tahoma, sans-serif;
+  font-weight: 700;
+}
+
+h3, h4, .captionlink {
+  font-family: roboto, tahoma, sans-serif;
+  font-weight: 700;
+}
+
+p, .footitem, .formlabel, .jobtitle, .customprojectsmall {
+  font-family: roboto, arial, sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size:2.25em;
+line-height:2.625em;
+}
+
+h2 {
+  font-size:1.5em;
+line-height:1.625em;
+}
+
+h3 {
+  font-size:1.375em;
+line-height:1.6875em;
+}
+
+h4 {
+  font-size:1.125em;
+line-height:1.5em;
+}
+
+h5 {
+  font-size:1.125em;
+line-height:1.3125em;
+}
+
+p {
+  font-size:1em;
+line-height:1.625em;
+}
+
+.smallcaps {
+  font-size:.75em;
+line-height:1.1875em;
+text-transform:uppercase;
+color: #fff  !important;
+}
+
+.mktbutton {
+  text-align:center;
+  display:inline-block  !important;
+  padding: 1%;
+border: 0  !important;
+}
+
+.footitem {
+  font-size:.875em;
+line-height:1.875em;
+
+}
+
+.captionlink {
+  font-size:1em;
+line-height:1.625em;
+}
+
+.subnav {
+  font-size:1em;
+  font-family: roboto, arial, sans-serif;
+  font-weight: 500;
+line-height:1.1875em;
+}
+
+.tagcaps {
+  font-size:.75em;
+line-height:.75em;
+padding: .5%;
+text-transform:uppercase;
+color: #000;
+text-align:center;
+display:inline-block;
+}
+
+.formlabel {
+  font-size:.875em;
+line-height:1em;
+}
+
+.jobtitle{
+  font-size:.875em;
+line-height:1.125em;
+text-transofrm: uppercase;
+}
+
+.customprojectsmall {
+  font-size:.875em;
+line-height:1.3125em;
+}
+
+.choosebutton {
+  font-size:.75em;
+line-height:.75em;
+}
+
+/* FONT STYLES END */
+
+/* SPECIAL TYPES BEGIN */
+
+.bgblack {
+background-color: #000;
+}
+
+.bgblue{
+background-color: #0097d5;
+}
+
+.bggreen {
+background-color: #99c525;
+}
+
+.bgyellow {
+background-color: #ffdc3d;
+}
+
+
+.underline {
+ text-decoration: underline;
+}
+
+.whitetype{
+  color:#fff;
+}
+
+.blacktype{
+  color:#000 !important;
+}
+
+.bluetype{
+  color:#0097d5;
+}
+
+
+/* SPECIAL TYPES END*/
+
+
+/* GENERAL ATTRIBUTE STYLE BEGIN */
+
+li {
+  list-style-type:square;
+}
+
+/* GENERAL ATTRIBUTE STYLE END */
+
+.parentpagetag {
+border: 2px solid #000;
+font-family: "Work Sans", Arial, sans-serif;
+padding: 5px;
+color: #000;
+font-weight: 700;
+font-size: 14px;
+text-transform: uppercase;
+display: inline-block;
+position: relative;
+}
+
+.divide
+{border: .5px solid #000;}
+
+.submissiontype a { color:#000; font-weight:bold;}
+
+.submissiontype a:hover { background-color: #FFDC3D; padding: 5px;}
+
+.parentpage {
+border: 2px solid #000;
+display:inline-flex;
+}
+
+.parentpage p {
+font-family: "Work Sans", Arial, sans-serif;
+padding: 5px 10px;
+color: #000;
+font-weight: 700;
+font-size: 14px;
+text-transform: uppercase;
+display: flex;
+text-align:center;
+align-items:middle;
+}
+
+.informational {font-size:12px;font-weight:400;font-style:italic; text-decoration:underline;font-famly:roboto;margin-left:5px;color:#000;}
+
+.small-copy {
+font-size:12px; }
+
+.inline-blue {
+font-family: inherit; font-style:italic; font-weight: bold;color: #0097d5; text-decoration:underline;}
